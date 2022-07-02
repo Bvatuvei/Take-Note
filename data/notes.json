@@ -1,10 +1,8 @@
 {
-    "notes": [
-        {
-    
-                 "title":"Test Title",
-                 "text":"Test text"
-           
-        }
-    ]
+  "notes": [
+    {
+      "title": "Welcome",
+      "text": "Add note and then save!"
+    }
+  ]
 }

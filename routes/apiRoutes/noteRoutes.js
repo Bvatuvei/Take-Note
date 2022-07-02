@@ -15,7 +15,7 @@ router.post('/notes', (req, res) => {
     res.status(400).send('Error');
   } else {
     notes.push(note);
-    fs.writeFile(
+    fs.writeFileSync(
       path.join(__dirname, '../../data/notes.json'),
       JSON.stringify({notes}, null, 2)
     );
