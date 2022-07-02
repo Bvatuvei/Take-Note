@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { notes } = require('../../data/notes.json');
+const { notes } = require('../db/notes.json');
 const path = require("path");
 const fs = require('fs');
 
@@ -16,7 +16,7 @@ router.post('/notes', (req, res) => {
   } else {
     notes.push(note);
     fs.writeFileSync(
-      path.join(__dirname, '../../data/notes.json'),
+      path.join(__dirname, '../../db/notes.json'),
       JSON.stringify({notes}, null, 2)
     );
     res.json(notes);
