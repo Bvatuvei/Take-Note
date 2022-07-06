@@ -8,3 +8,5 @@ This is a command line app that allows you to start a server and input notes tha
 
 
 ## [Video Link](https://drive.google.com/file/d/1ci16OMsR86jvkL8WhDEMlz3HVhdECgPm/view?usp=sharing)
+
+## Install
